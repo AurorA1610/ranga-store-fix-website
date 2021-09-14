@@ -20,7 +20,9 @@
 
 
 <body>
-  <header></header>
+  <header>
+    <h1  id="top-heading" class="text-center"><span>Roys</span> Super-Store</h1>
+  </header>
 
 
   <!-- main starts -->
@@ -30,7 +32,7 @@
     <div class="search-field">
       <div class="search-box">
         <input id="input-field" class="search-field" type="text" />
-        <button type="button" class="btn btn-primary search-button" data-toggle="button" aria-pressed="false" autocomplete="off" id="search-btn" onclick="loadProducts()">
+        <button type="button" class="btn search-button" data-toggle="button" aria-pressed="false" autocomplete="off" id="search-btn" onclick="loadProducts()">
           Search
         </button>
       </div>
@@ -48,7 +50,7 @@
         <div class="cart" id="my-cart">
           <table class="table">
             <thead>
-              <h1>My-Cart</h1>
+              <h1 id="cart-heading">My-Cart</h1>
               <tr>
                 <th scope="col"></th>
                 <th scope="col"></th>
@@ -95,7 +97,7 @@
           </table>
           <!-- div for 'buy now' button  -->
           <div class="parces text-center">
-            <button class="btn btn-primary text-center">Buy Now</button>
+            <button id="cart-btn" class="btn text-center">Buy Now</button>
           </div>
         </div>
       </div>
